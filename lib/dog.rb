@@ -6,6 +6,10 @@ class Dog
     @name = name 
     @breed = name 
   end
+  
+  def breed 
+    puts "Mutt"
+  end
 end 
 
 
