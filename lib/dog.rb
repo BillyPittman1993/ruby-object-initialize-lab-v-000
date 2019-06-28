@@ -1,16 +1,14 @@
 class Dog 
   
-  def inilialize(name)
+  attr_accessor :name, :breed
+  
+  def inilialize(name, breed)
     @name = name 
+    @breed = name 
   end
-  
-  def name 
-    @name 
-  end 
-  
-  
+
 end 
 
 
-
+fido = Dog.new("Fido", "Pug")
 
