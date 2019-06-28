@@ -7,3 +7,6 @@ def Person
   end 
   
 end 
+
+beyonce = Person.new("Beyonce")
+puts beyonce.name 
