@@ -13,7 +13,3 @@ class Dog
   
 end 
 
-dog = Dog.new("ninja")
-puts dog.name 
-breed = Dog.new("lab")
-puts dog.breed 
