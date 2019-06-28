@@ -6,9 +6,6 @@ class Dog
     @name = name 
     @breed = name 
   end
-
 end 
 
-
-fido = Dog.new("Fido", "Pug")
 
